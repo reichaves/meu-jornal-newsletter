@@ -6,7 +6,7 @@ Este projeto apoia o jornalismo profissional. O acesso a informações muda vida
 O **meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional pela newsletter Meu Jornal.
 
 ### autoria
-gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas) e Bernardo Vianna)
+gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
 
 ### última atualização
 10/01/2022
