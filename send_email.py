@@ -2,6 +2,7 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Attachment, Mail
 from scraper import *
 from sys_date import get_date
+import os
 
 manchete_globo_com = link_globo_com()
 manchete_g1 = link_g1()
@@ -29,5 +30,7 @@ email = Mail(
 		  <p>O Globo: {manchete_oglobo}</p>
 		  <p>Metrópoles: {manchete_metropoles}</p>"""
       )
+
+SENDGRID_API_KEY = os.environ["SENDGRID_API_KEY"]
 api = SendGridAPIClient(SENDGRID_API_KEY)
 api.send(email)
