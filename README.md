@@ -3,7 +3,7 @@ Bem-vindo/a!
 Este projeto apoia o jornalismo profissional. O acesso a informações muda vidas. Ajude a imprensa. Assine jornais, sites e revistas. Apoie grandes e pequenos veículos. Busque informações antes de opinar. Cheque informações antes de compartilhar.
 
 ### sobre
-O **meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional pela newsletter Meu Jornal.
+O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional pela newsletter Meu Jornal.
 
 ### como funciona
 Você recebe um e-mail todo dia, com as principais manchetes e capas de jornal.
