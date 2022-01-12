@@ -1,6 +1,7 @@
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Attachment, Mail
-from scraper import *
+from scraper_portal import *
+from scraper_impresso import capa_jornal
 from sys_date import get_date
 import os
 
