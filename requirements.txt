@@ -5,3 +5,5 @@ lxml
 beautifulsoup4
 datetime
 sendgrid
+urllib3
+pybase64
