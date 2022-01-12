@@ -19,7 +19,7 @@ gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.c
 ### próximas versões
 - usa ``lxml`` em vez de ``beautifulsoup4`` no scraper_portal.py
 - permite que a pessoa se cadastre na newsletter
-- enviar um print screen de 100vh de cada portal
+- envia um print screen de 100vh de cada portal
 - URL da imagem da capa dos jornais será própria
 
 ### como funciona
