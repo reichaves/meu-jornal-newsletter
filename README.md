@@ -25,9 +25,9 @@ gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.c
 - envia um print screen de 100vh de cada portal
 - URL da imagem da capa dos jornais será própria
 
-### Abrangência
-Scraper dos portais:
+### abrangência
+Scraper dos portais:        
 globo.com, g1, Valor, UOL, Folha, Estadão, O Globo e Metrópoles.
 
-Scraper das capas dos jornais impressos:
+Scraper das capas dos jornais impressos:        
 Folha, Estadão, O Globo e Valor.
