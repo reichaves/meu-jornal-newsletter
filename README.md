@@ -30,4 +30,4 @@ Scraper dos portais:
 globo.com, g1, Valor, UOL, Folha, Estadão, O Globo e Metrópoles.
 
 Scraper das capas dos jornais impressos:
-Folha, Estadão, O Globo e Valor
+Folha, Estadão, O Globo e Valor.
