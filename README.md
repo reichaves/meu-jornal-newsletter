@@ -14,7 +14,7 @@ gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.c
 ### o que já faz
 - newsletter é disparada todo dia, às 5h
 - envia as manchetes dos portais de notícias
-- envia a capa da versão impressa dos jornais
+- envia as capas da versão impressa dos jornais
 
 ### próximas versões
 - usa ``lxml`` em vez de ``beautifulsoup4`` no scraper_portal.py
