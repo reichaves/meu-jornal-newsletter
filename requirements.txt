@@ -1,6 +1,7 @@
 Flask==2.0.2
 gunicorn
 requests
+lxml
 beautifulsoup4
 datetime
 sendgrid
