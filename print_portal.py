@@ -2,6 +2,7 @@ import os
 from urllib.parse import urlencode
 from urllib.request import urlretrieve
 from base64 import b64encode
+from sendgrid.helpers.mail import Attachment
 
 API_FLASH_KEY = os.environ["API_FLASH_KEY"]
 
