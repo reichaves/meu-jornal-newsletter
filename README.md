@@ -18,6 +18,7 @@ Você recebe uma newsletter todo dia, com as principais manchetes e capas de jor
 - newsletter é disparada todo dia, às 5h
 - envia as manchetes dos portais de notícias
 - envia as capas da versão impressa dos jornais
+- envia um print screen de 100vh de quatro portais
 
 ### tecnologia utilizada
 - python
@@ -30,7 +31,6 @@ Você recebe uma newsletter todo dia, com as principais manchetes e capas de jor
 ### próximas versões
 - usa ``lxml`` em vez de ``beautifulsoup4`` no scraper_portal.py
 - permite que a pessoa se cadastre na newsletter
-- envia um print screen de 100vh de cada portal
 - URL da imagem da capa dos jornais será própria
 
 ### abrangência
