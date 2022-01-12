@@ -13,8 +13,15 @@ manchete_folha = link_folha()
 manchete_estadao = link_estadao()
 manchete_oglobo = link_oglobo()
 manchete_metropoles = link_metropoles()
+
 data_completa = get_date()
+
 impressa_links = capa_jornal()
+
+anexo_g1 = print_g1()
+anexo_globo_com = print_globo_com()
+anexo_oglobo = print_oglobo()
+anexo_uol = print_uol()
 
 email = Mail(
       from_email = "gabriela.caesar.2019@gmail.com", 
@@ -42,6 +49,8 @@ email = Mail(
       <p>Valor:</p><img src={impressa_links[3]}>
       """
       )
+
+email.attachment = [anexo_g1, anexo_globo_com, anexo_oglobo, anexo_uol]
 
 SENDGRID_API_KEY = os.environ["SENDGRID_API_KEY"]
 api = SendGridAPIClient(SENDGRID_API_KEY)
