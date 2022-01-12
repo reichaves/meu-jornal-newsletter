@@ -15,7 +15,6 @@ def print_g1():
   contents = image.read()
   image.close()
 
-  contents
   data = b64encode(contents).decode()
   anexo_g1 = Attachment(file_content = data, file_name = 'print_portal_g1.jpeg')
   return anexo_g1
@@ -29,7 +28,6 @@ def print_globo_com():
   contents = image.read()
   image.close()
 
-  contents
   data = b64encode(contents).decode()
   anexo_globo_com = Attachment(file_content = data, file_name = 'print_portal_globo_com.jpeg')
   return anexo_globo_com
@@ -57,7 +55,6 @@ def print_uol():
   contents = image.read()
   image.close()
 
-  contents
   data = b64encode(contents).decode()
   anexo_uol = Attachment(file_content = data, file_name = 'print_portal_uol.jpeg')
   return anexo_uol
