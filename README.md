@@ -23,9 +23,15 @@ Você recebe uma newsletter todo dia, com as principais manchetes e capas de jor
 ### tecnologia utilizada
 - python
 - heroku
-- sendgrid, apiflash
-- requests, lxml, beautifulsoup4
-- os, datetime
+- sendgrid
+- apiflash
+- requests
+- lxml
+- beautifulsoup4
+- urllib3
+- pybase64
+- os 
+- datetime
 - flask
 
 ### próximas versões
