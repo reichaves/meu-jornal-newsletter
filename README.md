@@ -9,11 +9,18 @@ O **meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo p
 gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
 
 ### última atualização
-10/01/2022
+12/01/2022
+
+### o que já faz
+- newsletter é disparada todo dia, às 5h
+- envia as manchetes dos portais de notícias
+- envia a capa da versão impressa dos jornais
 
 ### próximas versões
-- atualizar o scraper.py para usar ``lxml`` em vez de ``beautifulsoup4``
-- criar uma newsletter do projeto, enviada diariamente, às 5h
+- usa ``lxml`` em vez de ``beautifulsoup4`` no scraper_portal.py
+- permite que a pessoa se cadastre na newsletter
+- enviar um print screen de 100vh de cada portal
+- URL da imagem da capa dos jornais será própria
 
 ### como funciona
 Você recebe um e-mail todo dia, com as principais manchetes.
@@ -22,6 +29,8 @@ Manchete é a chamada principal de um jornal impresso ou de um portal de notíci
 Para utilizar o serviço, você deve:
 - cadastrar-se para receber as newsletters
 
-Atualmente o projeto abrange os seguintes veículos:
+Scraper dos portais abrange:
 globo.com, g1, Valor, UOL, Folha, Estadão, O Globo e Metrópoles.
 
+Scraper das capas dos jornais impressos abrange:
+Folha, Estadão, O Globo e Valor
