@@ -1,12 +1,12 @@
 ### mensagem inicial
 Bem-vindo/a!
-Este projeto apoia o jornalismo profissional. O acesso a informações muda vidas. Ajude a imprensa. Assine jornais, sites e revistas. Apoie grandes e pequenos veículos. Busque informações antes de opinar. Cheque informações antes de compartilhar.
+Este projeto apoia o jornalismo profissional. O acesso a informações muda vidas. Ajude a imprensa. Assine jornais, sites e revistas. Apoie grandes e pequenos veículos. Busque informações antes de opinar. Cheque informações antes de compartilhar
 
 ### sobre
-O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional.
+O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional
 
 ### como funciona
-Você recebe uma newsletter todo dia, com as principais manchetes e capas de jornal.
+Você recebe uma newsletter todo dia, com as principais manchetes e capas de jornal
 
 ### autoria
 gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
@@ -27,7 +27,7 @@ gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.c
 
 ### abrangência
 Scraper dos portais:        
-globo.com, g1, Valor, UOL, Folha, Estadão, O Globo e Metrópoles.
+globo.com, g1, Valor, UOL, Folha, Estadão, O Globo e Metrópoles
 
 Scraper das capas dos jornais impressos:        
-Folha, Estadão, O Globo e Valor.
+Folha, Estadão, O Globo e Valor
