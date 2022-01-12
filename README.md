@@ -20,9 +20,12 @@ Você recebe uma newsletter todo dia, com as principais manchetes e capas de jor
 - envia as capas da versão impressa dos jornais
 - envia um print screen de 100vh de quatro portais
 
-### tecnologia utilizada
+### tecnologia usada
 - python
 - heroku
+- github
+
+### bibliotecas usadas
 - sendgrid
 - apiflash
 - requests
