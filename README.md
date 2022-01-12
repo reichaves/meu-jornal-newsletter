@@ -5,19 +5,27 @@ Este projeto apoia o jornalismo profissional. O acesso a informações muda vida
 ### sobre
 O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional
 
-### como funciona
-Você recebe uma newsletter todo dia, com as principais manchetes e capas de jornal
-
 ### autoria
 gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
 
 ### última atualização
 12/01/2022
 
+### como funciona
+Você recebe uma newsletter todo dia, com as principais manchetes e capas de jornal
+
 ### o que já faz
 - newsletter é disparada todo dia, às 5h
 - envia as manchetes dos portais de notícias
 - envia as capas da versão impressa dos jornais
+
+### tecnologia utilizada
+- python
+- heroku
+- sendgrid, apiflash
+- requests, lxml, beautifulsoup4
+- os, datetime
+- flask
 
 ### próximas versões
 - usa ``lxml`` em vez de ``beautifulsoup4`` no scraper_portal.py
