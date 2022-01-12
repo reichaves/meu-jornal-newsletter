@@ -6,7 +6,7 @@ Este projeto apoia o jornalismo profissional. O acesso a informações muda vida
 O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional.
 
 ### como funciona
-Você recebe um e-mail todo dia, com as principais manchetes e capas de jornal.
+Você recebe uma newsletter todo dia, com as principais manchetes e capas de jornal.
 
 ### autoria
 gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
