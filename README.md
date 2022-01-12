@@ -5,6 +5,9 @@ Este projeto apoia o jornalismo profissional. O acesso a informações muda vida
 ### sobre
 O **meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional pela newsletter Meu Jornal.
 
+### como funciona
+Você recebe um e-mail todo dia, com as principais manchetes e capas de jornal.
+
 ### autoria
 gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
 
@@ -22,15 +25,9 @@ gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.c
 - envia um print screen de 100vh de cada portal
 - URL da imagem da capa dos jornais será própria
 
-### como funciona
-Você recebe um e-mail todo dia, com as principais manchetes.
-Manchete é a chamada principal de um jornal impresso ou de um portal de notícias.
-
-Para utilizar o serviço, você deve:
-- cadastrar-se para receber as newsletters
-
-Scraper dos portais abrange:
+### Abrangência
+Scraper dos portais:
 globo.com, g1, Valor, UOL, Folha, Estadão, O Globo e Metrópoles.
 
-Scraper das capas dos jornais impressos abrange:
+Scraper das capas dos jornais impressos:
 Folha, Estadão, O Globo e Valor
