@@ -44,9 +44,9 @@ email = Mail(
       </br>
       </br>
       <h3>Capa das versões impressas</h3>
-      <p>Folha:</p><img src={impressa_links[0]}></br></br></br></br>
-      <p>Estadão:</p><img src={impressa_links[1]}></br></br></br></br>
-      <p>O Globo:</p><img src={impressa_links[2]}></br></br></br></br>
+      <p>Folha:</p><img src={impressa_links[0]}><br><br>
+      <p>Estadão:</p><img src={impressa_links[1]}><br><br>
+      <p>O Globo:</p><img src={impressa_links[2]}><br><br>
       <p>Valor:</p><img src={impressa_links[3]}>
       """
       )
