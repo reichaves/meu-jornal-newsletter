@@ -9,7 +9,7 @@ O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo p
 gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
 
 ### última atualização
-12/01/2022
+13/01/2022
 
 ### como funciona
 Você recebe uma newsletter todo dia, com as capas do jornal impresso e também com os prints e as manchetes dos principais portais de notícias
