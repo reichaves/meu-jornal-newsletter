@@ -15,7 +15,7 @@ gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.c
 Você recebe uma newsletter todo dia, com as capas do jornal impresso e também com os prints e as manchetes dos principais portais de notícias
 
 ### o que já faz
-- newsletter é disparada todo dia, às 5h
+- newsletter é disparada todo dia, às 7h
 - envia as manchetes dos portais de notícias
 - envia as capas da versão impressa dos jornais
 - envia um print screen de 100vh de quatro portais
