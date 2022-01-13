@@ -1,7 +1,6 @@
 import requests
 import lxml.html
 
-# scrapers
 def link_globo_com():
   url = "https://www.globo.com/"
   page = requests.get(url)
