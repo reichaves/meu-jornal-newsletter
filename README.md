@@ -7,6 +7,7 @@ O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo p
 
 ### autoria
 gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
+contato sobre o projeto: ``meu.jornal.gabriela@gmail.com`` e ``gabriela.caesar.2019@gmail.com``
 
 ### última atualização
 13/01/2022
@@ -26,16 +27,16 @@ Você recebe uma newsletter todo dia, com as capas do jornal impresso e também 
 - github
 
 ### bibliotecas usadas
-- sendgrid
-- apiflash
-- requests
-- lxml
-- beautifulsoup4
-- urllib3
-- pybase64
-- os 
-- datetime
-- flask
+- ``sendgrid``
+- ``apiflash``
+- ``requests``
+- ``lxml``
+- ``beautifulsoup4``
+- ``urllib3``
+- ``pybase64``
+- ``os``
+- ``datetime``
+- ``flask``
 
 ### próximas versões
 - usa ``lxml`` em vez de ``beautifulsoup4`` no scraper_portal.py
