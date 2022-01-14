@@ -6,7 +6,7 @@ Este projeto apoia o jornalismo profissional. O acesso a informações muda vida
 O **Meu jornal** é um serviço gratuito para facilitar o acesso ao jornalismo profissional
 
 ### autoria
-gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)
+gabriela caesar (com orientações de [Alvaro Justen - Turicas](https://github.com/turicas), Bernardo Vianna e Eduardo Cuducos)           
 contato sobre o projeto: ``meu.jornal.gabriela@gmail.com`` e ``gabriela.caesar.2019@gmail.com``
 
 ### última atualização
