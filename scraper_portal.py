@@ -38,7 +38,7 @@ def link_uol():
 def link_folha():
   url = "https://www.folha.uol.com.br/"
   page = requests.get(url)
-@@ -38,20 +42,23 @@ def link_folha():
+  soup = BeautifulSoup(page.content, "html.parser")
   manchete_folha = soup.find('a', class_ = 'c-main-headline__url').attrs['href']
   return manchete_folha
 
