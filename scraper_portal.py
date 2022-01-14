@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-# scrapers
 # globo.com
 def link_globo_com():
   url = "https://www.globo.com/"
@@ -39,6 +38,7 @@ def link_folha():
   url = "https://www.folha.uol.com.br/"
   page = requests.get(url)
   soup = BeautifulSoup(page.content, "html.parser")
+  #print(soup)
   manchete_folha = soup.find('a', class_ = 'c-main-headline__url').attrs['href']
   return manchete_folha
 
