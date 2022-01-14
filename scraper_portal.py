@@ -1,58 +1,64 @@
 import requests
-import lxml.html
+from bs4 import BeautifulSoup
 
+# scrapers
+# globo.com
 def link_globo_com():
   url = "https://www.globo.com/"
   page = requests.get(url)
-  doc = lxml.html.fromstring(page.content)
-  manchete_globo_com = doc.xpath('//div[@class="headline__container"]//a/@href')
+  soup = BeautifulSoup(page.content, "html.parser")
+  manchete_globo_com = soup.find('a', class_ = 'post__link').attrs['href']
   return manchete_globo_com
 
+# g1
 def link_g1():
   url = "https://g1.globo.com/"
   page = requests.get(url)
-  doc = lxml.html.fromstring(page.content)
-  manchete_g1 = doc.xpath('//div[@class="bastian-feed-item" and @data-index= "1"]//div[@class="feed-post-body-title gui-color-primary gui-color-hover "]//div[@class="_evt"]//a[@class="feed-post-link gui-color-primary gui-color-hover"]/@href')
+  soup = BeautifulSoup(page.content, "html.parser")
+  manchete_g1 = soup.find('a', class_ = 'feed-post-link gui-color-primary gui-color-hover').attrs['href']
   return manchete_g1
 
+# valor
 def link_valor():
   url = "https://valor.globo.com/"
   page = requests.get(url)
-  doc = lxml.html.fromstring(page.content)
-  manchete_valor = doc.xpath('//div[@class="highlight__title theme-title-element "]//a/@href')[0]
-  return manchete_valor 
+  soup = BeautifulSoup(page.content, "html.parser")
+  manchete_valor = soup.find('div', class_ = 'theme-title-element').find('a').attrs['href']
+  return manchete_valor
 
+# uol
 def link_uol():
   url = "https://www.uol.com.br/"
   page = requests.get(url)
-  doc = lxml.html.fromstring(page.content)
-  manchete_uol = doc.xpath('//article[@class = "headlineMain section__grid__main__highlight__item"]//a/@href')[0]
+  soup = BeautifulSoup(page.content, "html.parser")
+  manchete_uol = soup.find('article', class_ = 'headlineMain section__grid__main__highlight__item').find('a').attrs['href']
   return manchete_uol
 
+# folha
 def link_folha():
   url = "https://www.folha.uol.com.br/"
   page = requests.get(url)
-  doc = lxml.html.fromstring(page.content)
-  manchete_folha = doc.xpath('//a[@class = "c-main-headline__url"]/@href')[0]
+@@ -38,20 +42,23 @@ def link_folha():
+  manchete_folha = soup.find('a', class_ = 'c-main-headline__url').attrs['href']
   return manchete_folha
 
+# estadao
 def link_estadao():
   url = "https://www.estadao.com.br/"
   page = requests.get(url)
-  doc = lxml.html.fromstring(page.content)
-  manchete_estadao = doc.xpath('//div[@class = "intro"]//a/@href')[0]
+  soup = BeautifulSoup(page.content, "html.parser")
+  manchete_estadao = soup.find('div', class_ = 'intro').find('a').attrs['href']
   return manchete_estadao
 
+# o globo
 def link_oglobo():
   url = "https://oglobo.globo.com/"
   page = requests.get(url)
-  doc = lxml.html.fromstring(page.content)
-  manchete_oglobo = doc.xpath('//h1[@class = "teaser__title headline__title"]//a/@href')
+  soup = BeautifulSoup(page.content, "html.parser")
+  manchete_oglobo = soup.find('h1', class_ = 'headline__title').find('a').attrs['href']
   return manchete_oglobo
 
+# metropoles
 def link_metropoles():
   url = "https://www.metropoles.com/"
   page = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.27 Safari/537.36"})
-  doc = lxml.html.fromstring(page.content)
-  manchete_metropoles = doc.xpath('//h2[@class= "m-title"]//a/@href')
-  return manchete_metropoles
