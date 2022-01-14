@@ -26,7 +26,7 @@ anexo_uol = print_uol()
 
 email = Mail(
       from_email = "meu.jornal.gabriela@gmail.com", 
-      to_emails = ["gabriela.caesar.2019@gmail.com", "gabriela.caesar@g.globo", "carina.dourado@ebc.com.br"], 
+      to_emails = ["gabriela.caesar.2019@gmail.com", "gabriela.caesar@g.globo", "carina.dourado@ebc.com.br", "victorfariassb@gmail.com"], 
       subject = f"""Meu jornal - {data_completa}""", 
       html_content = f"""<h1>Meu jornal - {data_completa}</h1>
       <h2>Projeto final de <a href='http://gabrielacaesar.com/' target='_blank'>Gabriela Caesar</a></h2>
